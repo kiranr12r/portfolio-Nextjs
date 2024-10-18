@@ -5,13 +5,19 @@ const Grid = () => {
     return (
         <section id="about">
             <BentoGrid className="w-full py-20">
-                {gridItems.map((item) => (
+                {gridItems.map((item, i) => (
                     <BentoGridItem
                         id={item.id}
-                        key={item.id} // Using item.id for a unique key
+                        key={i}
                         title={item.title}
                         description={item.description}
-                        className={item.className} // Ensure this className is correctly passed
+                        // remove icon prop
+                        // remove original classname condition
+                        className={item.className}
+                        img={item.img}
+                        imgClassName={item.imgClassName}
+                        titleClassName={item.titleClassName}
+                        spareImg={item.spareImg}
                     />
                 ))}
             </BentoGrid>

@@ -10,9 +10,9 @@ export const gridItems = [
         id: 1,
         title: "I prioritize client collaboration, fostering open communication ",
         description: "",
-        className: "lg:col-span-2 md:col-span-3 md:row-span-2 bg-gradient-to-r from-indigo-500 to-purple-600 p-6 rounded-lg shadow-lg",  // Unique background and padding
-        imgClassName: "w-full h-full rounded-t-lg object-cover", // Rounded image with cover fit
-        titleClassName: "justify-end text-white font-bold text-xl",  // Text styling
+        className: "lg:col-span-3 md:col-span-6 md:row-span-4 lg:min-h-[60vh]",
+        imgClassName: "w-full h-full",
+        titleClassName: "justify-end",
         img: "/b1.svg",
         spareImg: "",
     },
@@ -20,9 +20,9 @@ export const gridItems = [
         id: 2,
         title: "I'm very flexible with time zone communications",
         description: "",
-        className: "lg:col-span-1 md:col-span-2 md:row-span-1 bg-gradient-to-r from-pink-500 to-orange-400 p-6 rounded-lg shadow-lg", // Different color scheme
+        className: "lg:col-span-2 md:col-span-3 md:row-span-2",
         imgClassName: "",
-        titleClassName: "justify-start text-white font-bold text-xl",
+        titleClassName: "justify-start",
         img: "",
         spareImg: "",
     },
@@ -30,29 +30,30 @@ export const gridItems = [
         id: 3,
         title: "My tech stack",
         description: "I constantly try to improve",
-        className: "lg:col-span-2 md:col-span-3 md:row-span-2 bg-gradient-to-r from-teal-400 to-green-500 p-6 rounded-lg shadow-lg", // Varying sizes and colors
-        imgClassName: "w-full h-full object-cover rounded-md", // Unique image styling
-        titleClassName: "justify-center text-white font-bold text-xl",
-        img: "/stack.svg",
+        className: "lg:col-span-2 md:col-span-3 md:row-span-2",
+        imgClassName: "",
+        titleClassName: "justify-center",
+        img: "",
         spareImg: "",
     },
     {
         id: 4,
         title: "Tech enthusiast with a passion for development.",
         description: "",
-        className: "lg:col-span-1 md:col-span-3 md:row-span-1 bg-gradient-to-r from-blue-400 to-green-500 p-6 rounded-lg shadow-lg", 
-        imgClassName: "object-cover",
-        titleClassName: "justify-start text-white font-bold text-xl",
+        className: "lg:col-span-2 md:col-span-3 md:row-span-1",
+        imgClassName: "",
+        titleClassName: "justify-start",
         img: "/grid.svg",
         spareImg: "/b4.svg",
     },
+
     {
         id: 5,
         title: "Currently building a JS Animation library",
         description: "The Inside Scoop",
-        className: "md:col-span-3 md:row-span-2 relative bg-gradient-to-r from-red-500 to-yellow-500 p-6 rounded-lg shadow-lg",  // Unique background
-        imgClassName: "absolute right-0 bottom-0 md:w-96 w-60 rounded-md", // Image alignment change
-        titleClassName: "justify-center md:justify-start lg:justify-center text-white font-bold text-xl",
+        className: "md:col-span-3 md:row-span-2",
+        imgClassName: "absolute right-0 bottom-0 md:w-96 w-60",
+        titleClassName: "justify-center md:justify-start lg:justify-center",
         img: "/b5.svg",
         spareImg: "/grid.svg",
     },
@@ -60,14 +61,13 @@ export const gridItems = [
         id: 6,
         title: "Do you want to start a project together?",
         description: "",
-        className: "lg:col-span-2 md:col-span-3 md:row-span-1 bg-gradient-to-r from-purple-500 to-indigo-600 p-6 rounded-lg shadow-lg", 
-        imgClassName: "object-cover",
-        titleClassName: "justify-center md:max-w-full max-w-60 text-center text-white font-bold text-xl",
+        className: "lg:col-span-2 md:col-span-3 md:row-span-1",
+        imgClassName: "",
+        titleClassName: "justify-center md:max-w-full max-w-60 text-center",
         img: "",
         spareImg: "",
     },
 ];
-
 
 export const projects = [
     {
@@ -76,7 +76,7 @@ export const projects = [
         des: "Explore the wonders of our solar system with this captivating 3D simulation of the planets using Three.js.",
         img: "/p1.svg",
         iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/fm.svg"],
-        link: "https://github.com/adrianhajdin?tab=repositories",
+        link: "/ui.earth.com",
     },
     {
         id: 2,
@@ -84,7 +84,7 @@ export const projects = [
         des: "Simplify your video conferencing experience with Yoom. Seamlessly connect with colleagues and friends.",
         img: "/p2.svg",
         iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/stream.svg", "/c.svg"],
-        link: "https://github.com/adrianhajdin/zoom-clone",
+        link: "/ui.yoom.com",
     },
     {
         id: 3,
@@ -92,7 +92,7 @@ export const projects = [
         des: "A REAL Software-as-a-Service app with AI features and a payments and credits system using the latest tech stack.",
         img: "/p3.svg",
         iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/c.svg"],
-        link: "https://github.com/adrianhajdin/ai_saas_app",
+        link: "/ui.aiimg.com",
     },
     {
         id: 4,
@@ -100,7 +100,7 @@ export const projects = [
         des: "Recreated the Apple iPhone 15 Pro website, combining GSAP animations and Three.js 3D effects..",
         img: "/p4.svg",
         iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"],
-        link: "https://github.com/adrianhajdin/iphone",
+        link: "/ui.apple.com",
     },
 ];
 
