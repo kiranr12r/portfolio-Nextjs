@@ -68,8 +68,10 @@
 
 @layer base {
     * {
-        @apply border-border !scroll-smooth;
+        @apply border-border;
+        scroll-behavior: smooth;
     }
+}
 
     body {
         @apply bg-background text-foreground;
@@ -78,7 +80,6 @@
     button {
         @apply active:outline-none;
     }
-}
 
 @layer utilities {
     .heading {

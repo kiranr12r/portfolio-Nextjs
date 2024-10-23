@@ -38,11 +38,11 @@ export const Spotlight = ({ className, fill }: SpotlightProps) => {
                     filterUnits="userSpaceOnUse"
                     colorInterpolationFilters="sRGB"
                 >
-                    <feFlood floodOpacity="0" result="BackgroundImageFix"></feFlood>
+                    <feFlood floodOpacity="0" result="Background<ImageFix"></feFlood>
                     <feBlend
                         mode="normal"
                         in="SourceGraphic"
-                        in2="BackgroundImageFix"
+                        in2="Background<ImageFix"
                         result="shape"
                     ></feBlend>
                     <feGaussianBlur
